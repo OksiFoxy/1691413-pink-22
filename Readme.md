@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Оксана Шишова](https://up.htmlacademy.ru/adaptive/22/user/1691413).
-* Наставник: `Неизвестно`.
+* Наставник: [Алёна Сиприкова](https://htmlacademy.ru/profile/asiprikova).
 
 ---
 
