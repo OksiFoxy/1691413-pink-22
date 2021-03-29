@@ -6,59 +6,61 @@
   </head>
   <body class="page__body">
     <header class="page-header">
-      <a class="page-header__logo">
+      <div>
+      <a class="page-header__logo" href="index.html">
         <img class="page-header__logo-image" src="" width="74" height="23" alt="Приложение Pink">
       </a>
+      <button class="page-header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      </div>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-        <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
-              <a>Главная</a>
+              <a href="">Главная</a>
             </li>
             <li class="site-list__item">
-              <a>Фотографии</a>
+              <a href="">Фотографии</a>
             </li>
             <li class="site-list__item">
-              <a>Конкурс</a>
+              <a href="">Конкурс</a>
             </li>
             <li class="site-list__item">
-              <a>HTML Academy</a>
+              <a href="">HTML Academy</a>
             </li>
           </ul>
-        </div>
       </nav>
     </header>
     <main class="page-main">
       <h1 class="visually-hidden">Приложение Pink</h1>
-      <section class="download_wrapper">
+      <section class="intro">
         <h2 class="visually-hidden">Где скачать приложение Pink</h2>
-        <p class="download_title">Взгляните на жизнь иначе!</p>
-        <button class="download-button" type="submit">Cкачать приложение</button>
-        <ul class="downnload-list">
-          <li class="downnload-list__item">
-            <a class="downnload-list__logo">
-              <img class="downnload-list__logo-image-apple" src="" width="47" height="56" alt="Скачать приложение для Ios">
+        <p class="intro__title">Взгляните на жизнь иначе!</p>
+        <a class="intro__button" type="submit" href="https://www.apple.com/ru/app-store/">Cкачать приложение</a>
+        <div class="intro__download downnload">
+        <ul class="downnload__list">
+          <li class="downnload__item">
+            <a class="downnload__link" href="https://www.apple.com/ru/app-store/">
+              <img class="downnload__logo-image--apple" src="" width="47" height="56" alt="Скачать приложение для Ios">
             </a>
           </li>
-          <li class="downnload-list__item">
-            <a class="downnload-list__logo">
-              <img class="downnload-list__logo-image-android" src="" width="47" height="56" alt="Скачать приложение для Android">
+          <li class="downnload__item">
+            <a class="downnload__link" href="https://play.google.com/store?hl=ru&gl=US">
+              <img class="downnload__logo-image--android" src="" width="47" height="56" alt="Скачать приложение для Android">
             </a>
           </li>
-          <li class="downnload-list__item">
-            <a class="downnload-list__logo">
-              <img class="downnload-list__logo-image-microsoft" src="" width="47" height="56" alt="Скачать приложение для Microsoft">
+          <li class="downnload__item">
+            <a class="downnload__link" href="https://www.microsoft.com/ru-ru/store/apps/windows">
+              <img class="downnload__logo-image--microsoft" src="" width="47" height="56" alt="Скачать приложение для Microsoft">
             </a>
           </li>
         </ul>
-        <p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        <p class="downnload__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        </div>
       </section>
-      <section class="advantages_wrapper">
+      <section class="advantages">
         <h2 class="visually-hidden">Преимущества приложения Pink</h2>
-        <div class="advantages_title">
-          <p class="advantages_intro">Устали от серости мегаполиса?</p>
-          <p class="advantages_intro">Нам есть, что вам предложить!</p>
+        <div class="advantages__title">
+          <p class="advantages__title-text">Устали от серости мегаполиса?</p>
+          <p class="advantages__title-text">Нам есть, что вам предложить!</p>
         </div>
         <ul class="advantages__list">
           <li class="advantages__item advantages__item--mood">
@@ -74,10 +76,9 @@
             <p class="advantages-description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
-        <img class="advantages-list__item-img" src="" width=157 height="320" alt="Изображение приложения">
       </section>
       <section class="reviews">
-        <div class="reviews__wrapper slider">
+        <div class="reviews slider">
           <h2 class="visually-hidden">Отзывы о приложении</h2>
           <div class="reviews__list slider__list">
             <blockquote class="reviews__item slider__item">
@@ -98,46 +99,55 @@
                 <p class="reviews__text"></p>
               </div>
             </blockquote>
-            <button class="reviews__prev" type="button">Предыдущий отзыв</button>
-            <button class="reviews__next" type="button">Следующий отзыв</button>
+            <div class="reviews__buttons">
+              <button class="reviews__prev" type="button">Предыдущий отзыв</button>
+              <button class="reviews__next" type="button">Следующий отзыв</button>
+            </div>
+            <div>
             <p class="reviews__toggles slider__toggles">
             <button class="slider__toggle slider__toggle--current" type="button">1</button>
             <button class="slider__toggle" type="button">2</button>
             <button class="slider__toggle" type="button">3</button>
-          </div>
-          <p class="reviews__toggles"></p>
+            </p>
+            </div>
         </div>
       </section>
       <section class="rate">
         <table>
-          <th>Стандарт</th>
-          <tr>
-            <td>Розовый фильтр</td>
-          </tr>
-          <tr>
-            <td>Смайлики</td>
-          </tr>
-          <tr>
-            <td>Комментарии</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Стандарт</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Розовый фильтр</td>
+            </tr>
+            <tr>
+              <td>Смайлики</td>
+            </tr>
+            <tr>
+              <td>Комментарии</td>
+            </tr>
+          </tbody>
         </table>
       </section>
       <footer class="page-footer">
-        <div class="page-footer__wrapper">
+        <div class="page-footer">
           <div class="page-footer__contacts contacts">
             <b class="contacts__title">Остались вопросы? Свяжитесь с нами!</b>
               <a class="contacts__phone" href="tel:+78125556666">
-                <span class="contacts__phone-mobile">Звоните:</span> +7 (812) 555-66-66
+                <span class="contacts__phone-mobile-title">Звоните:</span> +7 (812) 555-66-66
+              </a>
+              <a class="contacts__email" href="">
+                <span class="contacts__email-title">Пишите:</span> mail@htmlacademy.ru
               </a>
               <a class="contacts__adress" href="">
-                <span class="contacts__phone-mobile">Пишите:</span> mail@htmlacademy.ru
-              </a>
-              <a class="contacts__adress" href="">
-                <span class="contacts__phone-mobile">Приезжайте в гости</span> ул. Большая Конюшенная, 19/8
+                <span class="contacts__adress-title">Приезжайте в гости</span> ул. Большая Конюшенная, 19/8
               </a>
           </div>
           <div class="map">
-            <h2 class="visually-hidden">карта</h2>
+            <h2 class="visually-hidden">Как проехать в наш офис</h2>
               <img  src="" width="" height="" alt="Карта проезда к офису Pink">
           </div>
           <div class="page-footer__social social">
