@@ -1,0 +1,19 @@
+.reviews__author-name {
+  font: 700 18px/30px "Open Sans";
+  color: $color-black;
+}
+.reviews__text {
+  font: 400 14px/30px "Open Sans";
+  color: $font-color-base;
+}
+.reviews__button {
+  background-color: transparent;
+  border: none;
+}
+.slider__toggle {
+  width: 6px;
+  height: 6px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(40,54,69,0.3);
+}
