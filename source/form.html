@@ -28,25 +28,25 @@
     <nav class="main-nav">
       <ul class="main-nav__list site-list">
         <li class="site-list__item site-list__item--active">
-          <a href="">Главная</a>
+          <a href="index.html">Главная</a>
         </li>
         <li class="site-list__item">
-          <a href="">Фотографии</a>
+          <a href="catalog.html">Фотографии</a>
         </li>
         <li class="site-list__item">
-          <a href="">Конкурс</a>
+          <a href="form.html">Конкурс</a>
         </li>
         <li class="site-list__item">
-          <a href="">HTML Academy</a>
+          <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </li>
       </ul>
     </nav>
   </header>
   <main class="page-main">
     <h1 class="visually-hidden">Страница конкурса от приложения Pink</h1>
-    <section class="intro">
+    <section class="downnload">
       <h2 class="visually-hidden">Форма подачи заявки на конкурс Pink</h2>
-      <p class="intro__title">Конкурс на самое безбашенное путешествие с Пинк</p>
+      <p class="downnload__title">Конкурс на самое безбашенное путешествие с Пинк</p>
     </section>
     <section class="contest">
       <h2 class="visually-hidden">Форма для участия в конкурсе</h2>
@@ -57,43 +57,43 @@
           <legend class="visually-hidden">Фамилия, имя, отчество:</legend>
           <p>
             <label class="form__label form__label--surname" for="form__input--surname">Фамилия:</label>
-            <input id="form__input--surname" type="text" name="surname" placeholder="Укажите фамилию *" required>
+            <input id="form__input form__input--surname" type="text" name="surname" placeholder="Укажите фамилию *" required>
           </p>
           <p>
             <label class="form__label form__label--name" for="form__input--name">Имя:</label>
-            <input id="form__input--name" type="text" name="name" placeholder="Введите ваше имя *" required>
+            <input id="form__input form__input--name" type="text" name="name" placeholder="Введите ваше имя *" required>
           </p>
           <p>
             <label class="form__label form__label--patronymic" for="form__input--patronymic">Отчество:</label>
-            <input id="form__input--patronymic" type="text" name="patronymic" placeholder="Ну и отчество тоже">
+            <input id="form__input form__input--patronymic" type="text" name="patronymic" placeholder="Ну и отчество тоже">
           </p>
         </fieldset>
         <fieldset class="form__progress">
-          <legend class="form__progress form__label">Инфраструктура:</legend>
+          <legend class="form__label">Инфраструктура:</legend>
           <ul>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox" type="checkbox" name="checkbox-selfie" id="checkbox-selfie" checked>
+              <input class="form__input-checkbox form__input-checkbox" type="checkbox" name="checkbox-selfie" id="checkbox-selfie" checked>
               <label class="form__label-checkbox" for="checkbox-selfie">Сделал селфи с акулой</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox" type="checkbox" name="checkbox-sunburn" id="checkbox-sunburn" checked>
+              <input class="form__input-checkbox form__input-checkbox" type="checkbox" name="checkbox-sunburn" id="checkbox-sunburn" checked>
               <label class="form__label-checkbox" for="checkbox-sunburn">Обгорел на пляже</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox" type="checkbox" name="checkbox-chuck-norris"
+              <input class="form__input-checkbox form__input-checkbox" type="checkbox" name="checkbox-chuck-norris"
                 id="checkbox-chuck-norris">
               <label class="form__label-checkbox" for="checkbox-chuck-norris">Видел Чака Норриса</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox" type="checkbox" name="checkbox-souvenirs" id="checkbox-souvenirs">
+              <input class="form__input-checkbox form__input-checkbox" type="checkbox" name="checkbox-souvenirs" id="checkbox-souvenirs">
               <label class="form__label-checkbox" for="checkbox-souvenirs">Накупил сувениров</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox" type="checkbox" name="checkbox-tower" id="checkbox-tower" checked>
+              <input class="form__input-checkbox form__input-checkbox" type="checkbox" name="checkbox-tower" id="checkbox-tower" checked>
               <label class="form__label-checkbox" for="checkbox-tower">Удержал башню</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox" type="checkbox" name="checkbox-hotel" id="checkbox-hotel">
+              <input class="form__input-checkbox form__input-checkbox" type="checkbox" name="checkbox-hotel" id="checkbox-hotel">
               <label class="form__label-checkbox" for="checkbox-hotel">Разгромил отель</label>
             </li>
           </ul>
@@ -130,8 +130,8 @@
           </p>
         </fieldset>
         <fieldset>
-          <label for="textarea">Опишите свои эмоции</label>
-          <textarea class="form__textarea-feeling" rows="6" cols="150" name="text" id="textarea"
+          <label class="form__label" for="textarea">Опишите свои эмоции</label>
+          <textarea class="form__textarea-feeling form__input" rows="6" cols="150" name="text" id="textarea"
             placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
         </fieldset>
         <button class="form__button-show" type="submit">Отправить форму</button>
