@@ -1,16 +1,20 @@
 .page-footer__logo-glasses-footer path {
   fill: $color-pink;
 }
+
 .page-footer__logo-pink-footer path {
   fill: $font-color-base;
 }
+
 .social__link path {
   fill: $color-pink;
 }
+
 .copyright__text {
-  font: 400 14px/18px "Open Sans";
+  font: 400 14px/18px "Open Sans", sans-serif;
   color: $font-color-base;
 }
+
 .copyright__link path {
   fill: $color-pink;
 }

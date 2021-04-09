@@ -1,15 +1,18 @@
 .contacts {
   background-color: $color-white;
 }
+
 .contacts__title {
-  font: 300 24px/29px "Open Sans";
+  font: 300 24px/29px "Open Sans", sans-serif;
   color: $font-color-base;
 }
+
 .contacts__name {
-  font: 700 18px/25px "Open Sans";
+  font: 700 18px/25px "Open Sans", sans-serif;
   color: $font-color-base;
 }
+
 .contacts__info {
-  font: 300 24px/33px "Open Sans";
+  font: 300 24px/33px "Open Sans", sans-serif;
   color: $color-pink;
 }

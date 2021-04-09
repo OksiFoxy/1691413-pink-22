@@ -1,13 +1,16 @@
 .downnload {
-  background-image: url(/img/back-mobile.jpg);
+  background-image: url("/img/back-mobile.jpg");
   color: $font-color-light;
 }
+
 .downnload__title {
-  font:300 24px/29px "Open Sans";
+  font: 300 24px/29px "Open Sans", sans-serif;
 }
+
 .downnload__item {
   color: $font-color-light;
 }
+
 .downnload__text {
-  font:300 14px/24px "Open Sans";
+  font: 300 14px/24px "Open Sans", sans-serif;
 }
