@@ -11,7 +11,9 @@
 }
 
 .copyright__text {
-  font: 400 14px/18px "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: 18px;
   color: $font-color-base;
 }
 

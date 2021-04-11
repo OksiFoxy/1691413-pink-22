@@ -1,10 +1,14 @@
 .reviews__author-name {
-  font: 700 18px/30px "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: $font-size-middle;
+  line-height: 30px;
   color: $color-black;
 }
 
 .reviews__text {
-  font: 400 14px/30px "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: 30px;
   color: $font-color-base;
 }
 
