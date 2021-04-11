@@ -3,6 +3,8 @@
 }
 
 .intro__title {
-  color: $font-color-base;
-  font: 300 24px/120% "Open Sans", sans-serif;
+  color: $color-table-dark;
+  font-weight: 300;
+  font-size: $font-size-big;
+  line-height: 120%;
 }

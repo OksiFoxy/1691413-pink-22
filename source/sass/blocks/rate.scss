@@ -9,16 +9,20 @@
 
 .rate__table-title {
   border: 2px solid $color-grey-background;
-  background-color: $color-dark;
-  font: 700 16px/30px "Open Sans", sans-serif;
+  background-color: $color-table-dark;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
   color: $font-color-light;
   border-bottom: none;
 }
 
 .rate__table-price {
   border: 2px solid $color-grey-background;
-  background-color: $color-dark;
-  font: 300 14px/30px "Open Sans", sans-serif;
+  background-color: $color-table-dark;
+  font-weight: 300;
+  font-size: $font-size-base;
+  line-height: 30px;
   color: $font-color-light;
   border-top: none;
 }
@@ -27,7 +31,9 @@
   background-color: $color-white;
   border: 2px solid $color-grey-light;
   border-right: none;
-  font: 300 14px/30px "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: $font-size-base;
+  line-height: 30px;
   color: $font-color-base;
 }
 
@@ -36,9 +42,9 @@
 }
 
 .rate__ok path {
-  fill: $color-ok;
+  color: $color-ok;
 }
 
 .rate__no path {
-  fill: $color-no;
+  color: $color-no;
 }
