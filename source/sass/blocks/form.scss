@@ -25,17 +25,14 @@
   text-transform: uppercase;
 }
 
-input {
+.form__input {
   border: 2px solid $color-grey-light;
   border-radius: 1px;
 }
 
-textarea {
+.form__textarea-feeling {
   border: 2px solid $color-grey-light;
   border-radius: 1px;
-}
-
-::-webkit-input-placeholder {
   color: $font-color-base;
   font-weight: 400;
   font-size: $font-size-middle;
@@ -49,19 +46,13 @@ textarea {
   line-height: 30px;
 }
 
-:-moz-placeholder {
+::-webkit-input-placeholder {
   color: $font-color-base;
   font-weight: 400;
   font-size: $font-size-middle;
   line-height: 30px;
 }
 
-:-ms-input-placeholder {
-  color: $font-color-base;
-  font-weight: 400;
-  font-size: $font-size-middle;
-  line-height: 30px;
-}
 
 input[type="checkbox"] {
   display: none;
