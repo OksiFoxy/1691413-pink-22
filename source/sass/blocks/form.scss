@@ -71,7 +71,7 @@ input[type="radio"] {
   display: none;
 }
 
-.form__item-checkbox + label::before {
+.form__item-checkbox + .form__label-checkbox::before {
   content: "";
   width: 35px;
   height: 35px;
