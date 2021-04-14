@@ -1,13 +1,16 @@
 .form-photo {
   background-color: $color-grey-background;
 }
+
 .form-photo__filter-button {
   background-color: transparent;
   border: none;
 }
+
 .form-photo__icon {
   color: $color-pink;
 }
+
 .form-photo__button-ok {
   color: $color-pink;
   border: 3px solid $color-pink;
@@ -16,6 +19,7 @@
   font-size: $font-size-middle;
   line-height: 100%;
 }
+
 .form-photo__button-no {
   color: rgba(40, 54, 69, 0.1);
   border: 3px solid rgba(40, 54, 69, 0.1);
