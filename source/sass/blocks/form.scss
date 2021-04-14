@@ -53,7 +53,7 @@
   line-height: 30px;
 }
 
-.form__item-checkbox + label::before {
+.form__item-checkbox + .form__label-checkbox::before {
   content: "";
   width: 35px;
   height: 35px;
