@@ -2,6 +2,7 @@
 @import "global/fonts.scss";
 @import "global/global.scss";
 // Blocks
+// Index
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/downnload.scss";
@@ -12,3 +13,6 @@
 @import "blocks/contacts.scss";
 @import "blocks/map.scss";
 @import "blocks/page-footer.scss";
+// Form
+@import "blocks/contest__title.scss";
+@import "blocks/form.scss";

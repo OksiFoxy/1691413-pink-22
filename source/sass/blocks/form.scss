@@ -1,0 +1,73 @@
+.form {
+  color: $font-color-base;
+  font-weight: 400;
+  font-size: $font-size-middle;
+  line-height: 30px;
+}
+
+.form__info {
+  background-color: $color-white;
+}
+
+.form__progress {
+  background-color: $color-grey;
+}
+
+.form__operating-system {
+  background-color: $color-grey;
+}
+
+.form__label {
+  color: $color-pink;
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.form__input {
+  border: 2px solid $color-grey-light;
+  border-radius: 1px;
+}
+
+.form__textarea-feeling {
+  border: 2px solid $color-grey-light;
+  border-radius: 1px;
+  color: $font-color-base;
+  font-weight: 400;
+  font-size: $font-size-middle;
+  line-height: 30px;
+}
+
+::-moz-placeholder {
+  color: $font-color-base;
+  font-weight: 400;
+  font-size: $font-size-middle;
+  line-height: 30px;
+}
+
+::-webkit-input-placeholder {
+  color: $font-color-base;
+  font-weight: 400;
+  font-size: $font-size-middle;
+  line-height: 30px;
+}
+
+.form__item-checkbox + .form__label-checkbox::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-image: url("/source/img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.form__button-show {
+  background-color: $color-ok;
+  border: 2px solid $color-ok;
+  border-radius: 1px;
+  color: $color-white;
+  font-weight: 700;
+  font-size: $font-size-middle;
+  line-height: 30px;
+}
