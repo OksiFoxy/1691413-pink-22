@@ -50,7 +50,7 @@
     </section>
     <section class="contest">
       <h2 class="visually-hidden">Форма для участия в конкурсе</h2>
-      <p class="contest__title">Поделитесь своей историей и получитешанс выиграть ценный приз — 1000 миль на вашу
+      <p class="contest__title-index">Поделитесь своей историей и получитешанс выиграть ценный приз — 1000 миль на вашу
         бонусную карту!</p>
       <form class="form" method="GET" action="https://echo.htmlacademy.ru">
         <fieldset class="form__info">
@@ -69,31 +69,31 @@
           </p>
         </fieldset>
         <fieldset class="form__progress">
-          <legend class="form__progress form__label">Инфраструктура:</legend>
+          <legend class="form__label-title">Ваши безбашенные достижения в путешествии</legend>
           <ul>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox visually-hidden" type="checkbox" name="checkbox-selfie" id="checkbox-selfie" checked>
+              <input class="custom-checkbox" type="checkbox" name="checkbox-selfie" id="checkbox-selfie" checked>
               <label class="form__label-checkbox" for="checkbox-selfie">Сделал селфи с акулой</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox visually-hidden" type="checkbox" name="checkbox-sunburn" id="checkbox-sunburn" checked>
+              <input class="custom-checkbox" type="checkbox" name="checkbox-sunburn" id="checkbox-sunburn" checked>
               <label class="form__label-checkbox" for="checkbox-sunburn">Обгорел на пляже</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox visually-hidden" type="checkbox" name="checkbox-chuck-norris"
+              <input class="custom-checkbox" type="checkbox" name="checkbox-chuck-norris"
                 id="checkbox-chuck-norris">
               <label class="form__label-checkbox" for="checkbox-chuck-norris">Видел Чака Норриса</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox visually-hidden" type="checkbox" name="checkbox-souvenirs" id="checkbox-souvenirs">
+              <input class="custom-checkbox" type="checkbox" name="checkbox-souvenirs" id="checkbox-souvenirs">
               <label class="form__label-checkbox" for="checkbox-souvenirs">Накупил сувениров</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox visually-hidden" type="checkbox" name="checkbox-tower" id="checkbox-tower" checked>
+              <input class="custom-checkbox" type="checkbox" name="checkbox-tower" id="checkbox-tower" checked>
               <label class="form__label-checkbox" for="checkbox-tower">Удержал башню</label>
             </li>
             <li class="form__item-checkbox">
-              <input class="form__input-checkbox visually-hidden" type="checkbox" name="checkbox-hotel" id="checkbox-hotel">
+              <input class="custom-checkbox" type="checkbox" name="checkbox-hotel" id="checkbox-hotel">
               <label class="form__label-checkbox" for="checkbox-hotel">Разгромил отель</label>
             </li>
           </ul>
@@ -112,25 +112,22 @@
           </p>
         </fieldset>
         <fieldset class="form__operating-system">
-          <legend class="form__label">С каким приложением путешествовали?</legend>
+          <legend class="form__label-title">С каким приложением путешествовали?</legend>
           <p>
-            <input class="form__operating-system-input" type="radio" name="operating-system" id="form__radio_ios"
-              value="iOS">
-            <label for="form__label_radio form__radio_ios">Pink для iOS</label>
+            <input class="form__operating-system-input custom-radio" type="radio" name="form__radio_ios" id="form__radio_ios">
+            <label class="form__label-radio" for="form__radio_ios">Pink для iOS</label>
           </p>
           <p>
-            <input class="form__operating-system-input" type="radio" name="operating-system" id="form__radio_android"
-              value="Android">
-            <label for="form__label_radio form__radio_android">Pink на Android</label>
+            <input class="form__operating-system-input custom-radio" type="radio" name="form__radio_android" id="form__radio_android">
+            <label class="form__label-radio" for="form__radio_android">Pink на Android</label>
           </p>
           <p>
-            <input class="form__operating-system-input" type="radio" name="operating-system" id="form__radio_windows"
-              value="Windows">
-            <label for="form__label_radio form__radio_windows">Windows Phone</label>
+            <input class="form__operating-system-input custom-radio" type="radio" name="form__radio_windows" id="form__radio_windows">
+            <label class="form__label-radio" for="form__radio_windows">Windows Phone</label>
           </p>
         </fieldset>
         <fieldset>
-          <label for="textarea">Опишите свои эмоции</label>
+          <label class="form__label-title" for="textarea">Опишите свои эмоции</label>
           <textarea class="form__textarea-feeling" rows="6" cols="150" name="text" id="textarea"
             placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
         </fieldset>
