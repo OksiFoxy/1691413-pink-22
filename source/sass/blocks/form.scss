@@ -84,21 +84,17 @@
   line-height: 1.66;
 }
 
-.custom-checkbox {
+.form__input-checkbox {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
-.custom-checkbox + .form__label-checkbox::before {
+.form__input-checkbox + .form__label-checkbox::before {
   content: "";
-  display: inline-block;
-  margin-right: 22px;
+  position: absolute;
   width: 35px;
   height: 35px;
-  flex-shrink: 0;
-  flex-grow: 0;
-  top: 50%;
   border: 2px solid $color-grey-light;
   border-radius: 1px;
   background-color: $color-white;
@@ -107,30 +103,27 @@
   background-size: 50% 50%;
 }
 
-.custom-checkbox:checked + .form__label-checkbox::before {
+.form__input-checkbox:checked + .form__label-checkbox::before {
   border-color: $color-grey-light;
   background-color: $color-white;
-  background-image: url("/img/form/mobile/tick.svg");
+  background-image: url("../img/form/mobile/tick.svg");
 }
 
 .form__item-radio {
   position: relative;
 }
 
-.custom-radio {
+.form__input-radio {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
-.custom-radio + .form__label-radio::before {
+.form__input-radio + .form__label-radio::before {
   content: "";
-  display: inline-block;
-  margin-right: 31px;
+  position: absolute;
   width: 37px;
   height: 37px;
-  flex-shrink: 0;
-  flex-grow: 0;
   border: 2px solid $color-grey-light;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -138,8 +131,8 @@
   background-size: 50% 50%;
 }
 
-.custom-radio:checked + .form__label-radio::before {
-  background-image: url("/img/form/mobile/radio-ellipse-mob.svg");
+.form__input-radio:checked + .form__label-radio::before {
+  background-image: url("../img/form/mobile/radio-ellipse-mobile.svg");
 }
 
 .form__button-show {
