@@ -1,0 +1,16 @@
+.contest {
+  background-color: $color-white;
+  color: $font-color-base;
+}
+
+.contest__title {
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: 2.14;
+}
+
+.contest__title-index {
+  font-weight: 300;
+  font-size: $font-size-big;
+  line-height: 1.2;
+}

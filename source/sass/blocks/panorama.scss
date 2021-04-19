@@ -1,0 +1,37 @@
+.panorama__title {
+  color: $color-white;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.panorama__name {
+  color: $font-color-base;
+  font-weight: 700;
+  font-size: $font-size-base;
+  line-height: 1.71;
+}
+
+.panorama__time {
+  color: $font-color-base;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.panorama__text {
+  color: $font-color-base;
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: 1.71;
+}
+
+.panorama__checkbox-like {
+  color: currentColor;
+}
+
+.panorama__label-like {
+  color: $color-pink;
+  text-transform: uppercase;
+}

@@ -1,10 +1,11 @@
 .intro {
   background-color: $color-white;
+  background-image: url("../img/back-mobile.jpg");
 }
 
 .intro__title {
-  color: $color-table-dark;
+  color: $color-white;
   font-weight: 300;
   font-size: $font-size-big;
-  line-height: 120%;
+  line-height: 1.37;
 }

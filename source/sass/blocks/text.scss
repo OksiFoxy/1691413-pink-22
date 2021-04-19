@@ -1,7 +1,10 @@
-.contest__title {
+.text {
   background-color: $color-white;
+}
+
+.text__p {
   color: $font-color-base;
   font-weight: 400;
-  font-size: $font-size-base;
-  line-height: 30px;
+  font-size: $font-color-base;
+  line-height: 2.14;
 }

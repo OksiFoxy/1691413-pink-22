@@ -2,15 +2,11 @@
   color: $font-color-base;
   font-weight: 400;
   font-size: $font-size-middle;
-  line-height: 30px;
+  line-height: 1.66;
 }
 
 .form__info {
   background-color: $color-white;
-}
-
-.form__progress {
-  background-color: $color-grey;
 }
 
 .form__operating-system {
@@ -21,13 +17,26 @@
   color: $color-pink;
   font-weight: 400;
   font-size: $font-size-base;
-  line-height: 30px;
+  line-height: 2.14;
+  text-transform: uppercase;
+}
+
+.form__label-title {
+  color: $color-pink;
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: 1.89;
   text-transform: uppercase;
 }
 
 .form__input {
+  background-color: $color-white;
   border: 2px solid $color-grey-light;
   border-radius: 1px;
+  color: $font-color-base;
+  font-weight: 400;
+  font-size: $font-size-middle;
+  line-height: 1.66;
 }
 
 .form__textarea-feeling {
@@ -36,30 +45,94 @@
   color: $font-color-base;
   font-weight: 400;
   font-size: $font-size-middle;
-  line-height: 30px;
+  line-height: 1.66;
 }
 
 ::-moz-placeholder {
   color: $font-color-base;
   font-weight: 400;
   font-size: $font-size-middle;
-  line-height: 30px;
+  line-height: 1.66;
 }
 
 ::-webkit-input-placeholder {
   color: $font-color-base;
   font-weight: 400;
   font-size: $font-size-middle;
-  line-height: 30px;
+  line-height: 1.66;
 }
 
-.form__item-checkbox + .form__label-checkbox::before {
+.form__progress {
+  background-color: $color-grey;
+}
+
+.form__item-checkbox {
+  position: relative;
+}
+
+.form__label-checkbox {
+  color: $font-color-base;
+  font-weight: 400;
+  font-size: $font-size-middle;
+  line-height: 1.66;
+}
+
+.form__label-radio {
+  color: $font-color-base;
+  font-weight: 400;
+  font-size: $font-size-middle;
+  line-height: 1.66;
+}
+
+.form__input-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.form__input-checkbox + .form__label-checkbox::before {
   content: "";
+  position: absolute;
   width: 35px;
   height: 35px;
-  background-image: url("/source/img/checkbox-off.svg");
+  border: 2px solid $color-grey-light;
+  border-radius: 1px;
+  background-color: $color-white;
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.form__input-checkbox:checked + .form__label-checkbox::before {
+  border-color: $color-grey-light;
+  background-color: $color-white;
+  background-image: url("../img/form/mobile/tick.svg");
+}
+
+.form__item-radio {
+  position: relative;
+}
+
+.form__input-radio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.form__input-radio + .form__label-radio::before {
+  content: "";
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  border: 2px solid $color-grey-light;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.form__input-radio:checked + .form__label-radio::before {
+  background-image: url("../img/form/mobile/radio-ellipse-mobile.svg");
 }
 
 .form__button-show {
@@ -69,5 +142,5 @@
   color: $color-white;
   font-weight: 700;
   font-size: $font-size-middle;
-  line-height: 30px;
+  line-height: 1.66;
 }

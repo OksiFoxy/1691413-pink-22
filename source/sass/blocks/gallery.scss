@@ -1,0 +1,34 @@
+.gallery__photo {
+  background-color: $color-grey-background;
+}
+
+.gallery__photo-name {
+  color: $font-color-base;
+  font-weight: 700;
+  font-size: $font-size-base;
+  line-height: 1.71;
+}
+
+.gallery__time {
+  color: $font-color-base;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.gallery__photo-text {
+  color: $font-color-base;
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: 1.71;
+}
+
+.gallery__checkbox-like {
+  color: currentColor;
+}
+
+.gallery__label-like {
+  color: $color-pink;
+  text-transform: uppercase;
+}

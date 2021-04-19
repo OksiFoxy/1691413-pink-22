@@ -48,15 +48,15 @@
       <h2 class="visually-hidden">Фотографии пользователей</h2>
       <p class="intro__title">Фотографии пользователей</p>
     </section>
-    <section class="intro">
+    <section class="contest">
       <h2 class="visually-hidden">Преимущества приложения Pink</h2>
-      <p class="intro__title">Взгляните на фотографии, которые выкладывают пользователи!Видите, как не хватает ваших?
+      <p class="contest__title">Взгляните на фотографии, которые выкладывают пользователи!Видите, как не хватает ваших?
       </p>
     </section>
     <section class="panorama">
       <p class="panorama__title">Панорама дня</p>
-      <img src="" width="" height="" alt="Фотография">
-      <h3 class="panorama__name">Анна (5 минут назад)</h3>
+      <img src="./img/catalog/mobile/panorama-day-mobile.jpg" width="" height="" alt="Фотография">
+      <h3 class="panorama__name">Анна <span class="panorama__time">(5 минут назад)</span></h3>
       <p class="panorama__text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в
         перископе, задавайте свои вопросы!</p>
       <input class="panorama__checkbox-like" type="checkbox" name="gallery__checkbox-like" id="gallery__checkbox-like">
@@ -65,43 +65,43 @@
     <section class="gallery">
       <h2 class="visually-hidden">Примеры фотографий</h2>
       <article class="gallery__photo">
-        <img src="" width="" height="" alt="Фотография">
-        <h3 class="gallery__photo-name">Левон (5 минут назад)</h3>
+        <img src="./img/catalog/mobile/gallery-levon-mobile.jpg" width="" height="" alt="Фотография">
+        <h3 class="gallery__photo-name">Левон <span class="gallery__time">(5 минут назад)</span></h3>
         <p class="gallery__photo-text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
         <input class="gallery__checkbox-like" type="checkbox" name="gallery__checkbox-like" id="gallery__checkbox-like">
         <label class="gallery__label-like" for="gallery__checkbox-like">Нравится: 356</label>
       </article>
       <article class="gallery__photo">
-        <img src="" width="" height="" alt="Фотография">
-        <h3 class="gallery__photo-name">Антон (12 часов назад)</h3>
+        <img src="./img/catalog/mobile/gallery-anton-mobile.jpg" width="" height="" alt="Фотография">
+        <h3 class="gallery__photo-name">Антон <span class="gallery__time">(12 часов назад)</span></h3>
         <p class="gallery__photo-text">Соседи будут рады!</p>
         <input class="gallery__checkbox-like" type="checkbox" name="gallery__checkbox-like" id="gallery__checkbox-like">
         <label class="gallery__label-like" for="gallery__checkbox-like">Нравится: 666</label>
       </article>
       <article class="gallery__photo">
-        <img src="" width="" height="" alt="Фотография">
-        <h3 class="gallery__photo-name">Борис (20 часов назад)</h3>
+        <img src="./img/catalog/mobile/gallery-boris-mobile.jpg" width="" height="" alt="Фотография">
+        <h3 class="gallery__photo-name">Борис <span class="gallery__time">(20 часов назад)</span></h3>
         <p class="gallery__photo-text">Здесь могла быть ваша цитата о высоком и вечном.</p>
         <input class="gallery__checkbox-like" type="checkbox" name="gallery__checkbox-like" id="gallery__checkbox-like">
         <label class="gallery__label-like" for="gallery__checkbox-like">Нравится: 215</label>
       </article>
       <article class="gallery__photo">
-        <img src="" width="" height="" alt="Фотография">
-        <h3 class="gallery__photo-name">Сергей (25 часов назад)</h3>
+        <img src="./img/catalog/mobile/gallery-sergey-mobile.jpg" width="" height="" alt="Фотография">
+        <h3 class="gallery__photo-name">Сергей <span class="gallery__time">(25 часов назад)</span></h3>
         <p class="gallery__photo-text">Самая кубанская в мире!</p>
         <input class="gallery__checkbox-like" type="checkbox" name="gallery__checkbox-like" id="gallery__checkbox-like">
         <label class="gallery__label-like" for="gallery__checkbox-like">Нравится: 4</label>
       </article>
       <article class="gallery__photo">
-        <img src="" width="" height="" alt="Фотография">
-        <h3 class="gallery__photo-name">Максим (40 часов назад)</h3>
+        <img src="./img/catalog/mobile/gallery-maksim-mobile.jpg" width="" height="" alt="Фотография">
+        <h3 class="gallery__photo-name">Максим <span class="gallery__time">(40 часов назад)</span></h3>
         <p class="gallery__photo-text">Где снег-то?</p>
         <input class="gallery__checkbox-like" type="checkbox" name="gallery__checkbox-like" id="gallery__checkbox-like">
         <label class="gallery__label-like" for="gallery__checkbox-like">Нравится: 150</label>
       </article>
       <article class="gallery__photo">
-        <img src="" width="" height="" alt="Фотография">
-        <h3 class="gallery__photo-name">Надежда (45 часов назад)</h3>
+        <img src="./img/catalog/mobile/gallery-nadezhda-mobile.jpg" width="" height="" alt="Фотография">
+        <h3 class="gallery__photo-name">Надежда <span class="gallery__time">(45 часов назад)</span></h3>
         <p class="gallery__photo-text">Всем GM и взаимные лайки!</p>
         <input class="gallery__checkbox-like" type="checkbox" name="gallery__checkbox-like" id="gallery__checkbox-like">
         <label class="gallery__label-like" for="gallery__checkbox-like">Нравится: 2560</label>
@@ -115,10 +115,26 @@
     <section>
       <form class="form-photo">
         <input class="form-photo__file" type="file">
-        <img class="form-photo__photo" src="" width="" height="" alt="Фотография">
+        <img class="form-photo__photo" src="../img/catalog/mobile/photo-upload-mobile.jpg" width="" height="" alt="Фотография">
+        <div class="form-photo__filters">
+          <div class="form-photo__filters-buttons">
+            <button class="form-photo__filter-button" type="button" aria-label="Обрезка">
+              <svg class="form-photo__icon" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 28h4V12a4 4 0 00-4-4H16v4h16v16zm-20 4V0H8v8H0v4h8v20a4 4 0 004 4h20v8h4v-8h8v-4H12z"
+                fill="currentColor"/>
+                </svg>
+            </button>
+            <button class="form-photo__filter-button" type="button" aria-label="Заливка">
+              <svg class="form-photo__icon" width="48" height="43" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.12 17.88L15.24 0l-2.83 2.83 4.76 4.76L6.88 17.88a3 3 0 000 4.24l11 11a3 3 0 004.24 0l11-11a3 3 0 000-4.24zM10.41 20L20 10.42 29.59 20H10.41zM38 23s-4 4.33-4 7a4 4 0 108 0c0-2.67-4-7-4-7zM48 40H0v3h48v-3z"
+                fill="currentColor"/></svg>
+            </button>
+            <button class="form-photo__filter-button" type="button" aria-label="Контрастность">
+              <svg class="form-photo__icon" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 4a12 12 0 110 24 12 12 0 010-24zm0-4a16 16 0 100 32 16 16 0 000-32zM16 24.29a8.52 8.52 0 000-17"
+                fill="currentColor"/></svg>
+            </button>
+          </div>
         <input class="form-photo__range" type="range" min="0" max="100" step="1" value="50">
-        <button class="form-photo__button-ok" type="submit">Запостить</button>
-        <button class="form-photo__button-no" type="reset">Отмена</button>
+        <button class="form-photo__button form-photo__button-ok" type="submit">Запостить</button>
+        <button class="form-photo__button form-photo__button-no" type="reset">Отмена</button>
       </form>
     </section>
   </main>

@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: $font-family-base;
   color: $font-color-base;
   font-size: $font-size-base;
@@ -30,12 +31,4 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="radio"] {
-  display: none;
 }
