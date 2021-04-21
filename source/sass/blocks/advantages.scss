@@ -1,5 +1,10 @@
 .advantages {
   background-color: $color-grey-background;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .advantages-title {
@@ -14,4 +19,11 @@
   font-size: $font-size-base;
   line-height: 1.71;
   color: $font-color-base;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__list {
+    display: flex;
+    justify-content: space-between;
+  }
 }

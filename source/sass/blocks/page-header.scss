@@ -3,6 +3,11 @@
 }
 
 .page-header {
+  height: 66px;
+  display: flex;
+  opacity: 0.3;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
   color: $font-color-base;
 }

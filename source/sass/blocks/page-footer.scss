@@ -1,5 +1,17 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .page-footer__logo-glasses-footer {
   color: $color-pink;
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-around;
 }
 
 .page-footer__logo-pink-footer {
@@ -19,4 +31,12 @@
 
 .copyright__link {
   color: $color-pink;
+}
+
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

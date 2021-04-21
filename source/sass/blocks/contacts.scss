@@ -1,5 +1,10 @@
 .contacts {
   background-color: $color-white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .contacts__title {

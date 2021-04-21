@@ -1,12 +1,36 @@
 .downnload {
-  background-image: url("../img/back-mobile.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   color: $font-color-light;
+  background-color: $color-blue;
 }
 
 .downnload__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-weight: 300;
   font-size: $font-size-big;
   line-height: 1.2;
+  background-image: url("../img/back-mobile.jpg");
+}
+
+.downnload__download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.downnload__list {
+  width: 205px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .downnload__item {
@@ -17,6 +41,7 @@
   font-weight: 300;
   font-size: $font-size-base;
   line-height: 1.71;
+  text-align: center;
 }
 
 .downnload__button {
@@ -26,4 +51,10 @@
   border: 3px solid $color-white;
   box-sizing: border-box;
   border-radius: 29px;
+}
+
+@media (min-width: $tablet-width) {
+  .downnload__title {
+    background-image: url("../img/back-tablet.jpg");
+  }
 }

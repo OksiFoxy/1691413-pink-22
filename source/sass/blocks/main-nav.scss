@@ -5,3 +5,36 @@
   text-transform: uppercase;
   color: $font-color-base;
 }
+
+.main-nav__list {
+  padding: 0;
+  margin: 0;
+}
+
+.site-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-table-dark;
+  height: 63px;
+  box-shadow: 0 1px 0 #000000, 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.site-list__item a {
+  color: $color-white;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__wrapper {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__wrapper {
+    width: 1200px;
+  }
+}
